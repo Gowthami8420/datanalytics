@@ -1,0 +1,170 @@
+# Indexing
+'''s="Hello Gud Morning"
+print(s[0])
+print(s[1])
+print(s[-1])'''
+
+
+#List Data Type
+a=[1,2,3,4,5,5]
+print(a[1])
+
+s=["Gowthami","suma","sri","chethana"]
+print(s[0])
+
+b=["Hii" ,"Every", "on" ,"how" ,"are" ,"you "]
+print(b[0])
+print(b[-1])
+#print(b[10])#Array index out of bound exception
+
+#tuple
+t=(1,2,3,4,5)
+print(t[0])
+print(t[2])
+
+tup1=tuple([1,2,3,3,4])
+print(tup1[2])
+
+print(type(True))
+print(type(False))
+#print(type(true))#Name Error
+
+#s1=set(),No duplicates,Mutable,Unordered
+s1=set("HelloWelocomeHello")
+print(s1)
+
+s2=set(["Hello","Welcome","Hello"])
+print(s2)
+
+
+name="Gowthami"
+print(name[0])
+print(name[1:4])
+print(name.upper())
+
+#List is mutable
+fruits=["apple","mango","banana","orange"]
+print(fruits)
+fruits.append("cherry")
+print(fruits)
+
+
+#Set and Tuple is immutable
+# fruits=set("apple","mango","banana","orange")
+# print(fruits)
+# fruits.append("cherry")
+# print(fruits)
+
+print("-------------------------------------------------------------------------")
+s = " Hello, Python World! "
+print("Lowercase:", s.lower())  # Converts to lowercase
+print("Uppercase:", s.upper())  # Converts to uppercase
+print("Title Case:", s.title())  # Converts first letter of each word to uppercase
+print("Capitalized:", s.capitalize())  # Capitalizes first letter of string
+print("Stripped:", s.strip())  # Removes leading and trailing spaces
+print("Left Stripped:", s.lstrip())  # Removes leading spaces
+print("Right Stripped:", s.rstrip())  # Removes trailing spaces
+print("Replace 'Python' with 'Java':", s.replace("Python", "Java"))  # Replaces substring
+print("Starts with ' Hello':", s.startswith(" Hello"))  # Checks if string starts with given substring
+print("Ends with 'World!':", s.endswith("World! "))  # Checks if string ends with given substring
+print("Find 'Python':", s.find("Python"))  # Finds index of substring (-1 if not found)
+print("Index of 'Python':", s.index("Python"))  # Finds index (raises error if not found)
+print("Count of 'o':", s.count("o"))  # Counts occurrences of a character
+print("Is Alphabetic:", s.isalpha())  # Checks if string is alphabetic
+print("Is Alphanumeric:", s.isalnum())  # Checks if string is alphanumeric
+print("Is Digit:", s.isdigit())  # Checks if string contains only digits
+print("Is Space:", s.isspace())  # Checks if string contains only spaces
+print("Is Title Case:", s.istitle())  # Checks if string is in title case
+print("Split into list:", s.split())  # Splits string into list
+print("Joined List:", "-".join(["Hello", "World"]))  # Joins list into string with delimiter
+print("Swapped Case:", s.swapcase())  # Swaps case of letters
+print("Zfill (pad with zeros):", s.zfill(30))  # Pads string with zeros
+print("Center Aligned:", s.center(30, "*"))  # Centers text with padding
+print("Left Aligned:", s.ljust(30, "-"))  # Left-aligns text with padding
+print("Right Aligned:", s.rjust(30, "-"))  # Right-aligns text with padding
+
+
+
+
+
+num=range(1,10,2)
+print(list(num))
+
+# set
+uni_num={1,2,3,4,4,4,4,5}
+print(uni_num)
+
+#Frozen set
+fs=frozenset({1,2,3})
+# fs.add(4) 
+print(fs)
+
+#Dictionary
+stud={"name":"Gowthami","age":22,"city":"Hyd"}
+print(stud["name"])
+print(stud["age"])
+print(stud["city"])
+
+#Binary data type
+b=bytes([65,66,67])
+print(b)
+
+c=[65,66,67]
+print(c)
+
+
+#None Type
+x=None
+print(type(x))
+
+
+# y
+# print(y)
+# print(type(y))#Value y is not defined
+
+
+# my_list = ["Apple", "Banana", "Cherry"]
+# print("Initial List:", my_list)
+
+# # Adding elements
+# my_list.append("Mango")
+# print("After appending Mango:", my_list)
+# # Inserting at a specific index
+# my_list.insert(1, "Orange")
+# print("After inserting Orange at index 1:", my_list)
+
+# # Updating an element
+# # my_list[2] = "Grapes"
+# print("After updating index 2 with Grapes:", my_list)
+# # Removing an element by value
+# my_list.remove("Banana")
+# print("After removing Banana:", my_list)
+# # Removing an element by index
+# removed_item = my_list.pop(2)
+# print(f"After popping element at index 2 ({removed_item} removed):", my_list)
+# # Searching for an element
+# search_item = input("Enter a fruit to search: ")
+# if search_item in my_list:
+#     print(f"{search_item} is in the list.")
+# else:
+#     print(f"{search_item} is not in the list.")
+
+# # Getting an element by index
+# print("Element at index 1:", my_list[1])
+# # Getting the size of the list
+# print("Size of the list:", len(my_list))
+# # Iterating through the list
+# print("Iterating through the list:")
+# for item in my_list:
+#     print(item)
+# # Sorting the list
+# my_list.sort()
+# print("Sorted list:", my_list)
+# # Reversing the list
+# my_list.reverse()
+# print("Reversed list:", my_list)
+# # Clearing the list
+# my_list.clear()
+# print("List after clearing:", my_list)
+# # Checking if the list is empty
+# print("Is the list empty?", len(my_list) == 0)
